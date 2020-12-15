@@ -6,7 +6,7 @@ function calculate(data){
     let result=  Math.floor(data.reduce((total,amount)=> total + amount / data.length));
     return result;
 }
-export default (props) =>{
+export default function Chart(props){
 
         return(
             <div>

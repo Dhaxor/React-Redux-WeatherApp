@@ -1,6 +1,8 @@
-import React, {Component, useRef} from 'react';
+import React, {Component} from 'react';
 
 const google = window.google;
+
+
 class GoogleMap extends Component{
 
 
